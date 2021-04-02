@@ -18,6 +18,8 @@ let result;
 
     else if(command ==='/'|'divide'){
     result= a/b;
+      if(result===0){
+        result='0';}
   console.log('result: ${result}');}
 
     else if(command ==='%'|'remainder'){
@@ -27,3 +29,10 @@ let result;
       else {
       console.log('result: Wrong command!');}
   }
+
+  calculate('add', 1, 3);
+calculate('-', 1, 3);
+calculate('multiply', 1, 3);
+calculate('/', 4, 2);
+calculate('%', 5, 3);
+calculate(']', 1, 3);
