@@ -38,3 +38,4 @@ calculate('multiply', 1, 3);
 calculate('/', 4, 2);
 calculate('%', 5, 3);
 calculate(']', 1, 3);
+
